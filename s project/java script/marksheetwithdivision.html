@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Marksheet with division </title>
+</head>
+<body>
+	<script type="text/javascript">
+			document.write("Enter marks of 3 subjects each out of 100"+"</br></br>");
+			document.write("*********************************************************************************"+"</br>");
+		var Science=parseInt(prompt("Enter Science number:"));
+			english=parseInt(prompt("Enter english number:"));
+			mathematics=parseInt(prompt("Enter mathematics number:"));
+			document.write("marks of science:"+Science+"</br>");
+			document.write("marks of english:"+english+"</br>");
+			document.write("marks of mathematics:"+mathematics+"</br></br>");
+			document.write("*********************************************************************************"+"</br></br>");
+		    total=(Science+english+mathematics);
+			document.write("toral marks :"+total+"</br></br>");
+			document.write("*********************************************************************************"+"</br></br>");
+			per=total*100/300;
+			document.write("persentage ="+per+"</br></br>");
+			document.write("*********************************************************************************"+"</br></br>");
+			if(per>=75&&per<=100) 
+			{
+				document.write("your grade is A+");
+
+			}
+			else if(per>=60&&per<=74) 
+			{
+				document.write("your grade is A");
+			}
+			else if(per>=46&&per<=59) 
+			{
+				document.write("your grade is B");
+			}
+			else if(per>=35&&per<=45) 
+			{
+				document.write("your grade is C");
+			}
+			else
+			{
+				document.write("Fail")
+			}
+	</script>
+
+</body>
+</html>

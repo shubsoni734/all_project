@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="eventmngmntDataSet5" targetNamespace="http://tempuri.org/eventmngmntDataSet5.xsd" xmlns:mstns="http://tempuri.org/eventmngmntDataSet5.xsd" xmlns="http://tempuri.org/eventmngmntDataSet5.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="eventmngmntConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="eventmngmntConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.eventmanagement.Properties.Settings.GlobalReference.Default.eventmngmntConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="evntTableAdapter" GeneratorDataComponentClassName="evntTableAdapter" Name="evnt" UserDataComponentName="evntTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="eventmngmntConnectionString (Settings)" DbObjectName="dbo.evnt" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT evnttype FROM dbo.evnt</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="evnttype" DataSetColumn="evnttype" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="eventmngmntDataSet5" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="eventmngmntDataSet5" msprop:Generator_UserDSName="eventmngmntDataSet5">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="evnt" msprop:Generator_TableClassName="evntDataTable" msprop:Generator_TableVarName="tableevnt" msprop:Generator_TablePropName="evnt" msprop:Generator_RowDeletingName="evntRowDeleting" msprop:Generator_RowChangingName="evntRowChanging" msprop:Generator_RowEvHandlerName="evntRowChangeEventHandler" msprop:Generator_RowDeletedName="evntRowDeleted" msprop:Generator_UserTableName="evnt" msprop:Generator_RowChangedName="evntRowChanged" msprop:Generator_RowEvArgName="evntRowChangeEvent" msprop:Generator_RowClassName="evntRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="evnttype" msprop:Generator_ColumnVarNameInTable="columnevnttype" msprop:Generator_ColumnPropNameInRow="evnttype" msprop:Generator_ColumnPropNameInTable="evnttypeColumn" msprop:Generator_UserColumnName="evnttype" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

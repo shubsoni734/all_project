@@ -1,0 +1,90 @@
+C:\Users\mansi sharma\Documents\Visual Studio 2010\Projects\eventmanagement\eventmanagement\bin\Debug\eventmanagement.exe
+C:\Users\mansi sharma\Documents\Visual Studio 2010\Projects\eventmanagement\eventmanagement\bin\Debug\eventmanagement.pdb
+C:\Users\mansi sharma\Documents\Visual Studio 2010\Projects\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.addcustomer.resources
+C:\Users\mansi sharma\Documents\Visual Studio 2010\Projects\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.addevent.resources
+C:\Users\mansi sharma\Documents\Visual Studio 2010\Projects\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.bookevent.resources
+C:\Users\mansi sharma\Documents\Visual Studio 2010\Projects\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.customer.resources
+C:\Users\mansi sharma\Documents\Visual Studio 2010\Projects\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.homepage.resources
+C:\Users\mansi sharma\Documents\Visual Studio 2010\Projects\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.login.resources
+C:\Users\mansi sharma\Documents\Visual Studio 2010\Projects\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.schedule.resources
+C:\Users\mansi sharma\Documents\Visual Studio 2010\Projects\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.updatecustomer.resources
+C:\Users\mansi sharma\Documents\Visual Studio 2010\Projects\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.updateevent.resources
+C:\Users\mansi sharma\Documents\Visual Studio 2010\Projects\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.viewcustomer.resources
+C:\Users\mansi sharma\Documents\Visual Studio 2010\Projects\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.viewevent.resources
+C:\Users\mansi sharma\Documents\Visual Studio 2010\Projects\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.wlcome.resources
+C:\Users\mansi sharma\Documents\Visual Studio 2010\Projects\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.Properties.Resources.resources
+C:\Users\mansi sharma\Documents\Visual Studio 2010\Projects\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.csproj.GenerateResource.Cache
+C:\Users\mansi sharma\Documents\Visual Studio 2010\Projects\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.exe
+C:\Users\mansi sharma\Documents\Visual Studio 2010\Projects\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.pdb
+C:\Users\mansi sharma\Documents\Visual Studio 2010\Projects\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.evntt.resources
+C:\Users\mansi sharma\Documents\Visual Studio 2010\Projects\eventmanagement\eventmanagement\bin\Debug\eventmanagement.exe.config
+C:\Users\mansi sharma\Documents\Visual Studio 2010\Projects\eventmanagement\eventmanagement\bin\Debug\eventmngmnt.mdf
+C:\Users\mansi sharma\Documents\Visual Studio 2010\Projects\eventmanagement\eventmanagement\bin\Debug\eventmngmnt_log.ldf
+C:\Users\mansi sharma\Documents\Visual Studio 2010\Projects\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.csprojResolveAssemblyReference.cache
+C:\Users\mansi sharma\Documents\Visual Studio 2010\Projects\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.Form1.resources
+C:\event management\eventmanagement\eventmanagement\bin\Debug\eventmanagement.exe.config
+C:\event management\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.exe
+C:\event management\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.pdb
+C:\event management\eventmanagement\eventmanagement\bin\Debug\eventmngmnt.mdf
+C:\event management\eventmanagement\eventmanagement\bin\Debug\eventmngmnt_log.ldf
+C:\event management\eventmanagement\eventmanagement\bin\Debug\eventmanagement.exe
+C:\event management\eventmanagement\eventmanagement\bin\Debug\eventmanagement.pdb
+C:\event management\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.csprojResolveAssemblyReference.cache
+C:\event management\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.addcustomer.resources
+C:\event management\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.addevent.resources
+C:\event management\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.bookevent.resources
+C:\event management\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.customer.resources
+C:\event management\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.evntt.resources
+C:\event management\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.Form1.resources
+C:\event management\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.homepage.resources
+C:\event management\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.login.resources
+C:\event management\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.schedule.resources
+C:\event management\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.updatecustomer.resources
+C:\event management\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.updateevent.resources
+C:\event management\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.viewcustomer.resources
+C:\event management\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.viewevent.resources
+C:\event management\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.wlcome.resources
+C:\event management\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.Properties.Resources.resources
+C:\event management\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.csproj.GenerateResource.Cache
+G:\event management\eventmanagement\eventmanagement\bin\Debug\eventmanagement.exe.config
+G:\event management\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.exe
+G:\event management\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.pdb
+G:\event management\eventmanagement\eventmanagement\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\event management\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.addcustomer.resources
+G:\event management\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.addevent.resources
+G:\event management\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.bookevent.resources
+G:\event management\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.customer.resources
+G:\event management\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.evntt.resources
+G:\event management\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.Form1.resources
+G:\event management\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.homepage.resources
+G:\event management\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.login.resources
+G:\event management\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.schedule.resources
+G:\event management\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.updatecustomer.resources
+G:\event management\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.updateevent.resources
+G:\event management\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.viewcustomer.resources
+G:\event management\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.viewevent.resources
+G:\event management\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.wlcome.resources
+G:\event management\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.Properties.Resources.resources
+G:\event management\eventmanagement\eventmanagement\obj\x86\Debug\GenerateResource.read.1.tlog
+G:\event management\eventmanagement\eventmanagement\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\s project\event management\eventmanagement\eventmanagement\bin\Debug\eventmanagement.exe.config
+D:\s project\event management\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.exe
+D:\s project\event management\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.pdb
+D:\s project\event management\eventmanagement\eventmanagement\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\s project\event management\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.addcustomer.resources
+D:\s project\event management\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.addevent.resources
+D:\s project\event management\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.bookevent.resources
+D:\s project\event management\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.customer.resources
+D:\s project\event management\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.evntt.resources
+D:\s project\event management\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.Form1.resources
+D:\s project\event management\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.homepage.resources
+D:\s project\event management\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.login.resources
+D:\s project\event management\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.schedule.resources
+D:\s project\event management\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.updatecustomer.resources
+D:\s project\event management\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.updateevent.resources
+D:\s project\event management\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.viewcustomer.resources
+D:\s project\event management\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.viewevent.resources
+D:\s project\event management\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.wlcome.resources
+D:\s project\event management\eventmanagement\eventmanagement\obj\x86\Debug\eventmanagement.Properties.Resources.resources
+D:\s project\event management\eventmanagement\eventmanagement\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\s project\event management\eventmanagement\eventmanagement\obj\x86\Debug\GenerateResource.write.1.tlog

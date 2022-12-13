@@ -1,0 +1,414 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0122E235-E21B-4D65-AE8F-59D72BAA8CFD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>eventmanagement</RootNamespace>
+    <AssemblyName>eventmanagement</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="addcustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addcustomer.Designer.cs">
+      <DependentUpon>addcustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addevent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addevent.Designer.cs">
+      <DependentUpon>addevent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bookevent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bookevent.Designer.cs">
+      <DependentUpon>bookevent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bookinginfo.cs" />
+    <Compile Include="customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="customer.Designer.cs">
+      <DependentUpon>customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="db.cs" />
+    <Compile Include="eventmngmntDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>eventmngmntDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="eventmngmntDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>eventmngmntDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="eventmngmntDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>eventmngmntDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="eventmngmntDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>eventmngmntDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="eventmngmntDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>eventmngmntDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="eventmngmntDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>eventmngmntDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="eventmngmntDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>eventmngmntDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="eventmngmntDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>eventmngmntDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="evntt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="evntt.Designer.cs">
+      <DependentUpon>evntt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="homepage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="homepage.Designer.cs">
+      <DependentUpon>homepage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="invoice.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>invoice.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="schedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="schedule.Designer.cs">
+      <DependentUpon>schedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="updatecustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="updatecustomer.Designer.cs">
+      <DependentUpon>updatecustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="updateevent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="updateevent.Designer.cs">
+      <DependentUpon>updateevent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewcustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewcustomer.Designer.cs">
+      <DependentUpon>viewcustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewevent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewevent.Designer.cs">
+      <DependentUpon>viewevent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="wlcome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wlcome.Designer.cs">
+      <DependentUpon>wlcome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="addcustomer.resx">
+      <DependentUpon>addcustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addevent.resx">
+      <DependentUpon>addevent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bookevent.resx">
+      <DependentUpon>bookevent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="customer.resx">
+      <DependentUpon>customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="evntt.resx">
+      <DependentUpon>evntt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="homepage.resx">
+      <DependentUpon>homepage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="invoice.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>invoice.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="schedule.resx">
+      <DependentUpon>schedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="updatecustomer.resx">
+      <DependentUpon>updatecustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="updateevent.resx">
+      <DependentUpon>updateevent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewcustomer.resx">
+      <DependentUpon>viewcustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewevent.resx">
+      <DependentUpon>viewevent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wlcome.resx">
+      <DependentUpon>wlcome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="eventmngmntDataSet.xsc">
+      <DependentUpon>eventmngmntDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="eventmngmntDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>eventmngmntDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="eventmngmntDataSet.xss">
+      <DependentUpon>eventmngmntDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="eventmngmntDataSet1.xsc">
+      <DependentUpon>eventmngmntDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="eventmngmntDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>eventmngmntDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="eventmngmntDataSet1.xss">
+      <DependentUpon>eventmngmntDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="eventmngmntDataSet2.xsc">
+      <DependentUpon>eventmngmntDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="eventmngmntDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>eventmngmntDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="eventmngmntDataSet2.xss">
+      <DependentUpon>eventmngmntDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="eventmngmntDataSet3.xsc">
+      <DependentUpon>eventmngmntDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="eventmngmntDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>eventmngmntDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="eventmngmntDataSet3.xss">
+      <DependentUpon>eventmngmntDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="eventmngmntDataSet4.xsc">
+      <DependentUpon>eventmngmntDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="eventmngmntDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>eventmngmntDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="eventmngmntDataSet4.xss">
+      <DependentUpon>eventmngmntDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="eventmngmntDataSet5.xsc">
+      <DependentUpon>eventmngmntDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="eventmngmntDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>eventmngmntDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="eventmngmntDataSet5.xss">
+      <DependentUpon>eventmngmntDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="eventmngmntDataSet6.xsc">
+      <DependentUpon>eventmngmntDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="eventmngmntDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>eventmngmntDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="eventmngmntDataSet6.xss">
+      <DependentUpon>eventmngmntDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="eventmngmntDataSet7.xsc">
+      <DependentUpon>eventmngmntDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="eventmngmntDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>eventmngmntDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="eventmngmntDataSet7.xss">
+      <DependentUpon>eventmngmntDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="eventmngmnt.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="eventmngmnt_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>eventmngmnt.mdf</DependentUpon>
+    </Content>
+    <None Include="Resources\is.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Sql.Server.Express.10.0">
+      <Visible>False</Visible>
+      <ProductName>SQL Server 2008 Express</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

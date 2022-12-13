@@ -1,0 +1,179 @@
+<!--
+    <div class="found" id="found">
+        <div class="our-name">
+        <h2><u>About Us</u></h2>
+        </div>
+        <div class="team-member">
+            <img src="baba.jpeg" alt="">
+            <h3>SHANKAR LAL SONI</h3>
+            <h5>Founder</h5>
+        </div>
+        <div class="team-member">
+            <img src="baba.jpeg" alt="">
+            <h3>NANDKISHOR SONI</h3>
+            <h5>Co-Founder</h5>
+        </div>
+    </div>
+        <!--contact us->
+        <div class="contact" id="contact">
+            <div class="name">
+            <h2><u>Contact Us</u> </h2>
+            </div>
+            <div class="address">
+            <h2>Shree Ji jewellers</h2>
+			<h3>Mobile No. = +91 9929187318, <br> 9509492917.</h3>
+            <h3>Address = 90/1 Opp. vishal mega <br>  mart dev narayan mandir road <br> Azad Nagar Bhilwara(Raj.) 311001</h3>
+            <a href="#" target="_blank"><img src="what.png" width="4%"></a>
+			<a href="#" target="_blank"><img src="face1.png" width="4%"></a>
+			<a href="#"  target="_blank"><img src="insta1.png" width="4%"></a>
+            </div>
+            <div class="address1">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14423.236746465414!2d74.62903388086166!3d25.344183241246714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3968c2383e7c5fad%3A0x36753905e3cdb0f!2sShree%20Ji%20Jeweller&#39;s%20Gold%20%26%20Silver%20Ornaments!5e0!3m2!1sen!2sus!4v1614688598437!5m2!1sen!2sus" width="432px" height="300px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="deve">
+                
+            </div>
+         </div>-->
+
+
+
+
+
+
+
+
+
+
+
+         
+                  /*out team page*/
+      .our-name{
+          text-align: center;
+          margin-bottom: 30px;
+      }
+      .our-name h2{
+          text-transform: uppercase;
+          margin: 15px;
+          color: white;
+          font-size: 30px;
+          letter-spacing: 3px;
+      }
+      .team-member{
+          width: 30%;
+          height: auto;
+          float: left;
+          box-shadow: 5px 5px 15px #1b1b1b;
+          position: relative;
+          display: block;
+          overflow: hidden;
+          padding: 15px;
+          text-align: center;
+          margin-left: 125px;
+          margin-right: 155px;
+          border-radius: 15px;
+          margin-bottom: 15px;
+      }
+      .team-member img{
+          border: 3px solid whitesmoke;
+          border-radius: 50%;
+          width: 300px;
+          height: 300px;
+      }
+      .team-member h3{
+          margin: 5px;
+          font-size: 25px;
+      }
+      .team-member h5{
+          font-size: 20px;
+          margin: 5px;
+      }
+      .team-member::before{
+          position: absolute;
+          content: '';
+          left: 0;
+          bottom: 0;
+          height: 4px;
+          width: 100%;
+          border-bottom: 4px solid transparent;
+          border-left: 4px solid transparent;
+          box-sizing: border-box;
+          transform: translateX(100%);
+      }
+      
+      .team-member::after{
+          position: absolute;
+          content: '';
+          left: 0;
+          top: 0;
+          height: 4px;
+          width: 100%;
+          border-top: 4px solid transparent;
+          border-right: 4px solid transparent;
+          box-sizing: border-box;
+          transform: translateX(-100%);
+      }
+      .team-member:hover::before{
+          border-color: #d04f91;
+          height: 100%;
+          transform: translateX(0);
+          transition: .3s transform linear,.3s height linear .3s;
+      }
+      .team-member:hover::after{
+          border-color: #d04f91;
+          height: 100%;
+          transform: translateX(0);
+          transition: .3s transform linear,.3s height linear .3s;
+      }
+              /*Contact Us*/
+      
+      .contact{
+      }
+      .name{
+          text-align: center;
+          margin-bottom: 30px;
+      }
+      .name h2{
+          padding-top: 320px;
+          text-transform: uppercase;
+          margin: 15px;
+          color: white;
+          font-size: 30px;
+          letter-spacing: 3px;
+      }
+      .address{
+          background:#35463f;
+          width: 30%;
+          height: auto;
+          float: left;
+          box-shadow: 5px 5px 15px #1b1b1b;
+          position: relative;
+          display: block;
+          overflow: hidden;
+          padding: 25px;
+          line-height: 30px;
+          text-align: center;
+          margin-left: 125px;
+          margin-right: 155px;
+          border-radius: 15px;
+          margin-bottom: 15px;
+      }
+      .address1{
+          background:#35463f;
+          float: left;
+          box-shadow: 5px 5px 15px #1b1b1b;
+          /*position: relative;
+          display: block;*/
+          overflow: hidden;
+          margin-left: 125px;
+          margin-right: 155px;
+          border-radius: 15px;
+      }
+      .address h2{
+          font-size: 27px;
+      }
+      .address a img{
+          margin-top: 17px;
+          margin-left: 22px;
+          width: 45px;
+          height: 45px    ;
+      }

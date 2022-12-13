@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="stylea.css">
+	<title>slide show</title>
+	<style>
+		body{
+			background-color: black;
+		}
+		.maindiv{
+			width: 90%;
+			height: 600px;
+			position: absolute;
+			left:50%;
+			top: 50%;
+			transform: translate(-50%,-50%);
+			background-image: url('2.jpg');
+			background-size: 100% 100%;
+			box-shadow: 1px 1px 8px 4px white;
+			animation: slide 40s infinite linear;
+		}
+		@keyframes slide{
+			0%{background-image: url('2.jpg');
+			}
+			33.33%{background-image: url('03.jpg');
+			}
+			66.66%{background-image: url('1.jpg');
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="maindiv">
+		
+
+	</div>
+
+</body>
+</html>

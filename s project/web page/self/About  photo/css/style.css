@@ -1,0 +1,77 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "open sans" , sans-serif;
+	box-sizing: border-box;
+}
+body{
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: white;
+}
+.about-section{
+	background : url(andras-vas-Bd7gNnWJBkU-unsplash.jpg) no-repeat left;
+	background-size:55%;
+	background-color:white;
+	overflow:hidden;
+	padding: 100px 0;	
+}
+.inner-container{
+	width: 57%;
+	float: right;
+	color: #F2AA4CFF;
+	background-color: #101820FF;
+	padding: 120px;
+}
+.round{
+	width: 250px;
+	height: 250px;
+	background: url(baba.jpeg);
+	border-radius: 50%;
+	background-size: cover;
+	float: left;
+	shape-outside: circle();
+	margin: -30px 30px 30px -30px;
+}
+.inner-container h1{
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 35px;
+}
+.text{
+	font-size: 14px;
+	line-height: 30px;
+	text-align: justify;
+	margin-bottom: 40px;
+}
+.skill{
+	display: flex;
+	justify-content: space-between;
+	font-weight: 700;
+	font-size: 16px;
+	color: #FFE77AFF;
+}
+@media screen and (max-width: 1200px){
+	.inner-container{
+		padding:80px;
+	}
+}
+@media screen and (max-width: 1000px){
+	.about-sectoin{
+		background-size: 100%;
+		padding: 100px 40px;
+	}
+	.inner-container{
+		width:100%;
+	}
+}
+@media screen and (max-width: 600px){
+	.about-sectoin{
+		padding: 0;
+	}
+	.inner-container{
+		padding: 60px;
+	}
+}

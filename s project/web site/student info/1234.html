@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="1231.css">
+    <title>sample</title>
+</head>
+<body>
+    <div class="all_area">
+        <form action="payment.html">
+           
+            <h1 class="inq">Student Inquery Form</h1>
+            
+            <p>Name:*
+                <input type="text" required name="name" placeholder="Shubham Soni">
+            </p>
+                <fieldset>
+                    <legend>Gender</legend>
+                        <input type="radio" id="male" required name="gender" value="male">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label>
+                        <input type="radio" id="other" name="gender" value="other">
+                        <label for="other">Other</label>
+                </fieldset>
+            <p class="dob">Date Of Birth:
+                <input type="date" required name="dob" id="dob">
+            </p>
+            <p>Email Address
+                <input type="email" required name="email" id="email" placeholder="abc.gmail.com">
+            </p>
+            <p>Address
+                <textarea required name="addresss" id="address" cols="30" rows="10"  placeholder="Enter Your Address"></textarea>
+            </p>
+            <p>Pincode
+                <input type="text" required name="Pincode" id="Pincode"  placeholder="111111">
+            </p>
+            <p>Mobile No.:
+                <input type="number" required name="mob_num" id="mob_num" placeholder="+91 1234567890">
+            </p>
+            <p>Qualification
+                <select required name="qua" id="qua">
+                    <option value="">--Select--</option>
+                    <option value="1">10th</option>
+                    <option value="2">12th</option>
+                    <option value="3">UG</option>
+                    <option value="4">PG</option>
+                </select>
+            </p>
+           <p>Select Cource
+                <select required name="cource" id="cource">
+                    <option value="">--Select Cource--</option>
+                    <option value="1">ITI</option>
+                    <option value="2">B.sc</option>
+                    <option value="3">B.Com</option>
+                    <option value="4">BCA</option>
+                    <option value="5">BBA</option>
+                    <option value="6">B.A.</option>
+                </select>
+            </p>
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+            <h1></h1>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> form for example</title>
+</head>
+<body>
+	<form action="form1.html" name="myform" onsubmit="return(validate());">
+		
+		<table cellpadding="2" cellspacing="2" border="1">
+			<tr><td colspan="2" align="center">sutdent enquery</td></tr>
+			
+			<tr>
+				<td align="right">Name</td>
+				<td><input type="text" name="name"></td>
+			</tr>
+			<tr>
+				<td align="right">Email</td>
+				<td><input type="text" name="email"></td>
+			</tr>
+			<tr>
+				<td align="right">Zipcode</td>
+				<td><input type="text" name="zipcode"></td>
+			</tr>
+			<tr>
+				<td align="right">Countery</td>
+				<td>
+				<select name="country">
+					<option value="-1">[choose your]</option>
+					<option value="1">usa</option>
+					<option value="2">uk</option>
+					<option value="3">india</option>
+				</select>
+				</td>
+			</tr>
+			<tr>
+				<td align="right">Submit</td>
+				<td><input type="Submit" value="Submit"></td>
+			</tr>
+
+		</table>
+	</form>
+
+</body>
+</html>

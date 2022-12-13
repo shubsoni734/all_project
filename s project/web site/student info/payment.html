@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="payment.css">
+    <title>Payment Info</title>
+</head>
+<body>
+    <div class="all-area">
+        <form action="Success.html">
+            <h1 class="pay">Payment Detail</h1>
+            <hr>
+            <p>Card Type:* 
+                <select required name="month" id="month">
+                    <option value="">--Select card Type</option>
+                    <option value="0">VISA</option>
+                    <option value="01">MASTRO/MASTER</option>
+                    <option value="02">RUPAY</option>
+                    <option value="03">AMERICAN EXPRESS</option>
+                    <option value="04">JCB</option>
+                </select>
+            </p>
+            <p>Card Holder Name:*
+                <input type="text" required name="name" id="name"  placeholder="Shubham Soni">
+            </p>
+            <p>Card Number:
+                <input type="number" required name="num" id="num" placeholder="1111-2222-3333-4444">
+            </p>
+            <p>Exp. Date:
+                <select required name="month" id="month">
+                    <option value="">Select</option>
+                    <option value="0">00</option>
+                    <option value="01">01</option>
+                    <option value="02">02</option>
+                    <option value="03">03</option>
+                    <option value="04">04</option>
+                    <option value="05">05</option>
+                    <option value="06">06</option>
+                    <option value="07">07</option>
+                    <option value="08">08</option>
+                    <option value="09">09</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                </select>
+                <select required name="year" id="year">
+                    <option value="">-Select</option>
+                    <option value="0">21</option>
+                    <option value="01">22</option>
+                    <option value="02">23</option>
+                    <option value="03">24</option>
+                    <option value="04">25</option>
+                    <option value="05">27</option>
+                    <option value="06">28</option>
+                    <option value="07">29</option>
+                    <option value="08">30</option>
+                </select>
+            </p>
+            <p>CVV
+                <input type="number" required name="cvv" id="cvv" placeholder="123">
+            </p>
+            <input type="submit" value="Submit">
+        </form>
+    </div>    
+</body>
+</html>

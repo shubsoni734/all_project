@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>fabonacki serice</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var n=0,n1=1,n2,num;
+		num=parseInt(prompt("how many time print fabonacci serise"));
+		document.write(n+",&nbsp");
+		document.write(n1+"&nbsp");
+		for(i=2;i<num;i++)
+		{
+			n2=n+n1;
+			document.write(","+n2+"&nbsp");
+			n=n1;
+			n1=n2;
+		}
+	</script>
+
+</body>
+</html>

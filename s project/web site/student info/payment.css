@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 15px 35px;
+    padding: 10px;
+    font-size: 18px;;
+}
+.all-area{
+
+    background-color:#ffffff ;
+    background-image: url("112.jpg");
+    background-size: 100% 100%;
+    padding: 15px;
+    border: 2px solid steelblue;
+    border-radius: 5px;
+}
+.pay{
+    text-align: center;
+}
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="number"],
+input[type="name"],
+select,
+textarea{
+    font-size: 19px;
+    background-color: transparent;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid chocolate;
+    border-radius: 3px;
+    margin: 5px;;
+}
+
+input[type="submit"],
+input[type="reset"]{
+    background-color: crimson;
+    width: 100%;
+    padding: 10px;
+    margin-left: 6px;
+    font-size: 25px;;
+    border: none;
+    text-decoration: solid;
+}
+input[type="submit"]:hover,
+input[type="reset"]:hover{
+    background-color: darkcyan;
+}
